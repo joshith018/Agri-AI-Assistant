@@ -31,7 +31,7 @@ This project is a full-stack AI application designed to assist farmers in diagno
 | **F1-Score** | 88.25% |
 
 **Working model**
-![working model](https://.png)
+![working model](https://github.com/joshith018/Agri-AI-Assistant/blob/main/farmer%20out.jpg)
 
 ## 🧠 Architecture
 The system uses a **Partial Unfreezing Strategy**:
