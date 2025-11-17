@@ -1,0 +1,36 @@
+# --- Virtual Environments (CRITICAL FIX) ---
+.venv/
+venv/
+env/
+
+# --- Environment Variables (Security) ---
+.env
+
+# --- Datasets (Too large for GitHub) ---
+/dataset/
+/data/
+*.jpg
+*.png
+*.jpeg
+*.bmp
+
+# --- Python Cache & Logs ---
+__pycache__/
+*.pyc
+*.log
+
+# --- Training Checkpoints (Save space) ---
+*.ckpt
+*.weights.h5
+
+# --- VS Code Settings (Optional but good) ---
+.vscode/
+
+# --- EXCEPTION: KEEP these specific models ---
+# The '!' means "Do NOT ignore this file"
+!banana_model_final.h5
+!rice_model_final.h5
+!disease_model_final.h5
+!models/banana_model_final.h5
+!models/rice_model_final.h5
+!models/disease_model_final.h5
