@@ -30,6 +30,9 @@ This project is a full-stack AI application designed to assist farmers in diagno
 | **Recall** | 89.01% |
 | **F1-Score** | 88.25% |
 
+**Working model**
+![working model](https://.png)
+
 ## 🧠 Architecture
 The system uses a **Partial Unfreezing Strategy**:
 * **Backbone:** Frozen EfficientNetV2B0 (Retains generic visual features).
